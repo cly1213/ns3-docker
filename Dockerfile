@@ -96,7 +96,7 @@ WORKDIR root
 # Fetch NS-3 source
 RUN git clone https://gitlab.com/nsnam/ns-3-allinone.git
 RUN cd ns-3-allinone
-RUN python3 download.py -n ns-3.30
+#RUN python3 download.py -n ns-3.30
 
 # Cleanup
 RUN apt-get clean && \
